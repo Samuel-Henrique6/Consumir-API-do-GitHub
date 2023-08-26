@@ -13,7 +13,7 @@ jobs:
         with:
           node-version: '14.x'
       - name: Set up project directory
-        run: cd /caminho/absoluto/do/seu/projeto
+        run: cd C:\Users\samue\Documents\Projeto-Node\Consumir-API-do-GitHub
       - name: Install dependencies
         run: npm ci
       - name: Build web-app
